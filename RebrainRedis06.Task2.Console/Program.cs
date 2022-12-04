@@ -8,5 +8,5 @@ var db = redis.GetDatabase();
 
 for(int i = 0; i < limit; i++)
 {
-    Console.Write(await db.ListLeftPopAsync(key));
+    Console.WriteLine(await db.ListLeftPopAsync(key));
 }
