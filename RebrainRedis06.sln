@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RebrainRedis06.Task1.Console", "RebrainRedis06.Task1.Console\RebrainRedis06.Task1.Console.csproj", "{B1195132-4C64-4F55-B4A1-DC304A8F95EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RebrainRedis06.Task2.Console", "RebrainRedis06.Task2.Console\RebrainRedis06.Task2.Console.csproj", "{5079EA4A-E393-4FC0-B97E-7A11FA28339E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1195132-4C64-4F55-B4A1-DC304A8F95EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1195132-4C64-4F55-B4A1-DC304A8F95EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1195132-4C64-4F55-B4A1-DC304A8F95EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1195132-4C64-4F55-B4A1-DC304A8F95EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5079EA4A-E393-4FC0-B97E-7A11FA28339E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5079EA4A-E393-4FC0-B97E-7A11FA28339E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5079EA4A-E393-4FC0-B97E-7A11FA28339E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5079EA4A-E393-4FC0-B97E-7A11FA28339E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F0785A9-DEBD-4F8D-84A5-0F5302D4E7E4}
+	EndGlobalSection
+EndGlobal

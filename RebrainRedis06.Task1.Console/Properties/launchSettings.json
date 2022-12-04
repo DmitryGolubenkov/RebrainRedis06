@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "RebrainRedis06.Task1.Console": {
+      "commandName": "Project",
+      "commandLineArgs": "randomtestkey"
+    }
+  }
+}
