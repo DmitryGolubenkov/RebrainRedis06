@@ -8,7 +8,7 @@ var db = redis.GetDatabase();
 
 if (db.KeyExists(key))
 {
-    foreach(var value in await db.ListLeftPopAsync(key, 20))
+    foreach(var value in await db.ListLeftPopAsync(key, limit))
     {
         Console.WriteLine(value);
     }
