@@ -6,7 +6,10 @@ var limit = int.Parse(args[1]);
 var redis = ConnectionMultiplexer.Connect("localhost:6379");
 var db = redis.GetDatabase();
 
-for(int i = 0; i < limit; i++)
+if (db.KeyExists(key))
 {
-    Console.WriteLine(await db.ListLeftPopAsync(key));
+    foreach(var value in await db.ListLeftPopAsync(key, 20))
+    {
+        Console.WriteLine(value);
+    }
 }
